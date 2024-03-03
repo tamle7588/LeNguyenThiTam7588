@@ -1,0 +1,38 @@
+
+/* Cấu hình bai2 */
+.bai2 {
+    max-width: 480px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: sans-serif;
+}
+
+/* Cấu hình tiêu đề */
+h1 {
+    text-align: left;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+/* cấu hình lớp thẻ */
+.tags {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* cấu hình thẻ */
+.tag {
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+    background-color: rgb(35, 196, 59);
+}
+
+/* Cấu hình văn bản bên trong thẻ */
+.tag p {
+    font-size: 16px;
+    margin: 0;
+    color: white;
+}

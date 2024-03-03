@@ -1,0 +1,63 @@
+
+body {
+    font-family: sans-serif;
+    font-size: 16px;
+    color: #000000;
+}
+
+.logo {
+    float: center;
+    padding: 20px;
+    margin-left: 43%;
+}
+
+.logo img {
+    max-width: 150px;
+}
+
+.tieude {
+    float:none;
+    text-align: center;
+}
+
+h1 {
+    font-size: 50px;
+    margin: 0;
+    margin-left: auto;
+}
+
+.tieude1 {
+    font-weight: normal;
+}
+
+.name {
+    color: blue; 
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 20px;
+    margin: 0;
+    margin-left: auto; 
+    font-weight: normal;
+    line-height: 3;
+}
+
+.sanpham {
+    display: flex;
+    margin-left: 35%;
+}
+
+.box {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    margin-right: 30px; /*k/c giữa 2 khung*/
+}
+
+.text {
+    display: inline-block;
+    margin-right: 8px; /* K/c giữa chữ và biểu tượng */
+    position: relative;
+    bottom: 20%;
+}
